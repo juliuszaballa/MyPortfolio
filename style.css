@@ -6,6 +6,40 @@ body, html {
     background: #0d0d0d;
     color: #ffffff;
   }
+  #projects {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .project-item {
+    max-width: 300px;
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #004aad; /* Nice blue tone */
+  }
   
   /* Particles Background */
   #particles-js {
